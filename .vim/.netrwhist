@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/gilvir/.config'
+let g:netrw_dirhist_2='/home/gilvir/.config/mopidy'
+let g:netrw_dirhist_3='/home/gilvir/.config/polybar'
+let g:netrw_dirhist_4='/home/gilvir/.ssh'
+let g:netrw_dirhist_5='/home/gilvir/personal/shmouse/x11'
+let g:netrw_dirhist_6='/home/gilvir/personal/mdl_parser/parse'
+let g:netrw_dirhist_7='/home/gilvir/personal/finalgraphics/parse'
+let g:netrw_dirhist_8='/home/gilvir/.vim'
+let g:netrw_dirhist_9='/home/gilvir/.config/i3'
