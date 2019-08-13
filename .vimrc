@@ -440,9 +440,23 @@ Plug 'tpope/vim-surround'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'Valloric/YouCompleteMe'
+
+Plug 'joshdick/onedark.vim'
+
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'Vimjas/vim-python-pep8-indent'
+
 call plug#end()
 
 " airline setup
 "
 let g:airline_theme='onedark'
 
+colorscheme onedark
