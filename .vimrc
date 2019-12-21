@@ -441,6 +441,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'Valloric/YouCompleteMe'
 
+Plug 'google/vim-maktaba'
+Plug 'google/vim-codefmt'
+
 Plug 'joshdick/onedark.vim'
 
 Plug 'pangloss/vim-javascript'
@@ -449,9 +452,13 @@ Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 
+Plug 'jparise/vim-graphql'
+
+Plug 'Vimjas/vim-python-pep8-indent'
+
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'Vimjas/vim-python-pep8-indent'
+
 
 call plug#end()
 
@@ -460,3 +467,6 @@ call plug#end()
 let g:airline_theme='onedark'
 
 colorscheme onedark
+
+au FileType python setlocal formatprg=autopep8\ -
+
