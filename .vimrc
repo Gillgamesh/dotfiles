@@ -152,11 +152,6 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-try
-    colorscheme desert
-catch
-endtry
-
 " set background=dark
 
 " Set extra options when running in GUI mode
@@ -446,11 +441,14 @@ Plug 'google/vim-codefmt'
 
 Plug 'joshdick/onedark.vim'
 
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+" Plug 'pangloss/vim-javascript'
 
-Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'peitalin/vim-jsx-typescript'
+
+
+Plug 'sheerun/vim-polyglot'
+
 
 Plug 'jparise/vim-graphql'
 
